@@ -1,0 +1,35 @@
+# e-commerce-clothing
+it is basically an e-commerce based web application that has many types of modules.
+1. ADMIN MODULE
+ -> category
+ -> sub category
+ -> single product
+ -> multi product
+ -> slider images 
+ -> blog panel
+ -> blog category
+ -> admin role
+ -> password cahnge module
+ -> bank details module
+ -> csv file import and export
+ -> self analysis dashboard(like google analytic)
+ -> 3-4 type of admin panel
+ -> and many more
+2. CUSTOMER MODULE
+  -> customer dashboard
+  -> wishlist
+  -> order list
+  -> tracking system
+  -> password and address change
+  -> invoice download and print
+  -> and as per requirement
+ 3. WEBSITE MODULE
+ -> index page 
+ -> slider
+ -> category search
+ -> filter
+ -> sort by and search
+ -> row pages(privacy policy and term and condition)
+ -> contact us
+ -> 4 step checkout process
+ -> order tracking

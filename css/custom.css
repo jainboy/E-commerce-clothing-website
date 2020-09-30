@@ -1,0 +1,186 @@
+#email_error
+{ color: red; }
+#register_msg
+{ color: red; }
+.field_error
+  {   color: red; }
+.img-responsive
+{
+width: 100%;
+position: center;
+}
+  .required:after {
+    content:" *";
+    color: red;
+  }
+  .custom-file-input1::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  input[type="file"]{
+    border:1px solid #ced4da;
+    color:#888080;
+     border-radius: 3px;
+}
+.custom-file-input1::before {
+  content: 'Browse';
+  display: inline-block;
+  background: #e9ecef;
+  border: 1px solid #d6d6d6;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 11pt;
+}
+  .custom-file-input1:hover::before {
+    border-color: #888080;
+  }
+  .custom-file-input1:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }
+#content #blog-listing .post1, #content #blog-homepage .post1
+{
+    padding: 0px !important;
+    border: none !important;
+}
+tr.variation {
+  margin: 0px 0px 20px 0px;
+  position: relative;
+  display: flex;
+}
+td.color {
+  width: 35px;
+  height: 35px; 
+  margin-right: 3px !important;
+  text-align: center;
+  border: 3px solid #9cc2c7;
+  border-radius: 50%;
+  color: #1cbda7;
+  font-size: 14px;
+}
+select#qty {
+  padding: 0.375rem 0.75rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #9cc2c7;
+  background-color: #fff;
+  border: 1px solid #17a2b8;
+  border-radius: 0.25rem;
+}
+.fr__hover__info {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.product__action {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+ul, ol {
+    list-style: none;
+}
+*, h1, h2, h3, h4, h5, h6, p, ul, a {
+    margin: 0;
+    padding: 0;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+/*-- coupons --*/
+.coupons,.banner-bootom-w3-agileits,.new_arrivals_agile_w3ls_info{
+    padding:4em 0;
+ }
+ .w3layouts_mail_grid {
+     padding: 0 1em;
+ }
+ .w3layouts_mail_grid_left1{
+     float: left;
+     width: 70px;
+     height: 70px;
+     text-align: center;
+ }
+ .w3layouts_mail_grid_left1 i{
+     font-size: 1.3em;
+     color: #fff;
+     line-height: 3.2em;
+ }
+ .w3layouts_mail_grid_left2{
+     float:right;
+     width:70%;
+         text-align: left;
+ }
+ .w3layouts_mail_grid_left2 h3{
+     font-size: 0.9em;
+     color: #2fdab8;
+     margin: 0em 0 0.5em;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-weight: 600;
+ }
+ .w3layouts_mail_grid_left2 a{
+     text-decoration:none;
+     color: #545454;
+     font-size:14px;
+ }
+ .w3layouts_mail_grid_left2 a:hover{
+     color:#212121;
+ }
+ .w3layouts_mail_grid_left2 p{
+ color: #545454;
+     font-size: 0.9em;
+     line-height: 1.8em;
+ }
+ .agile_newsletter_footer {
+     border-top: 1px solid #101010;
+     border-bottom: 1px solid #101010;
+     padding: 1em 0;
+     margin-top: 3em;
+ }
+ /* Radial Out */
+ .hvr-radial-out {
+   display: inline-block;
+   vertical-align: middle;
+   -webkit-transform: perspective(1px) translateZ(0);
+   transform: perspective(1px) translateZ(0);
+   box-shadow: 0 0 1px transparent;
+   position: relative;
+   overflow: hidden;
+   background: #111;
+   -webkit-transition-property: color;
+   transition-property: color;
+   -webkit-transition-duration: 0.3s;
+   transition-duration: 0.3s;
+ }
+ .hvr-radial-out:before {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background:#2fdab8;
+   -webkit-transform: scale(0);
+   transform: scale(0);
+   -webkit-transition-property: transform;
+   transition-property: transform;
+   -webkit-transition-duration: 0.3s;
+   transition-duration: 0.3s;
+   -webkit-transition-timing-function: ease-out;
+   transition-timing-function: ease-out;
+ }
+ .hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
+   color: white;
+ }
+ .hvr-radial-out:hover:before, .hvr-radial-out:focus:before, .hvr-radial-out:active:before,.w3layouts_mail_grid_left:hover .hvr-radial-out:before{
+   -webkit-transform: scale(2);
+   transform: scale(2);
+ }
+ /*-- //coupons --*/
+
+ 
